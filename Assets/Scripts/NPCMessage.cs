@@ -18,7 +18,7 @@ public class NPCMessage
 
     public bool hasText()
     {
-        return text == "";
+        return text != "";
     }
 
     public string getText()
