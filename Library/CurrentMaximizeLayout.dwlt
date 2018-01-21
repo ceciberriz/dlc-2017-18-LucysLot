@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 705
-  m_MinSize: {x: 881, y: 492}
-  m_MaxSize: {x: 16006, y: 14042}
+  m_MinSize: {x: 883, y: 492}
+  m_MaxSize: {x: 16008, y: 14042}
   vertical: 0
-  controlID: 18295
+  controlID: 20046
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_MinSize: {x: 606, y: 492}
   m_MaxSize: {x: 12006, y: 14042}
   vertical: 1
-  controlID: 18296
+  controlID: 20047
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 606, y: 221}
   m_MaxSize: {x: 12006, y: 4021}
   vertical: 0
-  controlID: 18297
+  controlID: 20048
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,9 +239,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.07347698, y: 0.9115204, z: -0.35913256, w: 0.18658315}
   m_Size:
-    m_Target: 825.17944
+    m_Target: 523.2242
     speed: 2
-    m_Value: 825.17944
+    m_Value: 523.2242
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -359,23 +359,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 3221f7ff5c3bf7ffba6df8ffdc5ffcffeadafcff7ce0fcff86f9feff1cfefeff62fffeff3820ffff3ceaffffc4ecffff7aeeffff2af2ffff72f4ffff9efbffff00000000b42b0000c82b0000aa2d00002636000084360000
+    m_SelectedIDs: b6a7f4ff
+    m_LastClickedID: -743498
+    m_ExpandedIDs: 1ae8f4ff3221f7ffba6df8ffdc5ffcffeadafcff7ce0fcff86f9feff1cfefeff62fffeff3820ffff3ceaffffc4ecffff7aeeffff2af2ffff72f4ffff9efbffff00000000b42b0000c82b0000aa2d00002636000084360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: shelf2
-      m_OriginalName: shelf2
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -243118
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -514,9 +514,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: b6a7f4ff
+    m_LastClickedInstanceID: -743498
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000042f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
