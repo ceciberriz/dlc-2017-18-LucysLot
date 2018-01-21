@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dlc-2017-18-LucysLot", "dlc-2017-18-LucysLot.csproj", "{D972C458-505B-37B5-A590-BB67F00C0C21}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dlc-2017-18-LucysLot", "Assembly-CSharp.csproj", "{FBE47175-12E0-B1BA-6DFC-48356768FBE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D972C458-505B-37B5-A590-BB67F00C0C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D972C458-505B-37B5-A590-BB67F00C0C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D972C458-505B-37B5-A590-BB67F00C0C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D972C458-505B-37B5-A590-BB67F00C0C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE47175-12E0-B1BA-6DFC-48356768FBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE47175-12E0-B1BA-6DFC-48356768FBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE47175-12E0-B1BA-6DFC-48356768FBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE47175-12E0-B1BA-6DFC-48356768FBE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
