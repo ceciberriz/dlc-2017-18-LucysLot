@@ -464,6 +464,7 @@ GameObject:
   - component: {fileID: 542926864}
   - component: {fileID: 542926863}
   - component: {fileID: 542926862}
+  - component: {fileID: 542926866}
   m_Layer: 0
   m_Name: npc
   m_TagString: Untagged
@@ -538,6 +539,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &562364486
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,6 +613,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+=======
+--- !u!114 &542926866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 542926861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e654e8d54fbe8b24a9096e136edd0640, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> 2e17f755a01133c2f9b79151a062d23de7737a41
 --- !u!1 &618916377
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +959,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 100, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &758020593
 Prefab:
   m_ObjectHideFlags: 0
@@ -1048,6 +1064,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6d2f7d8d0a31c4854a5e0244e4a45600, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> 2e17f755a01133c2f9b79151a062d23de7737a41
 --- !u!1 &872929174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,7 +1209,12 @@ Prefab:
 --- !u!1 &1021733082
 GameObject:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_PrefabParentObject: {fileID: 0}
+=======
+  m_PrefabParentObject: {fileID: 1648560719654450, guid: 6d2f7d8d0a31c4854a5e0244e4a45600,
+    type: 2}
+>>>>>>> 2e17f755a01133c2f9b79151a062d23de7737a41
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
@@ -1567,7 +1590,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   gridSize: {x: 500, y: 500}
+<<<<<<< HEAD
   nodeRadius: 2
+=======
+  nodeRadius: 2.5
+>>>>>>> 2e17f755a01133c2f9b79151a062d23de7737a41
   displayGizmos: 1
 --- !u!114 &1289522234
 MonoBehaviour:
@@ -2311,6 +2338,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 222168084105136780, guid: 6d2f7d8d0a31c4854a5e0244e4a45600,
     type: 2}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2061301058}
 --- !u!114 &2061301064
 MonoBehaviour:
@@ -2318,6 +2346,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2061301058}
+=======
+  m_GameObject: {fileID: 2061301058}
+--- !u!114 &2061301064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2061301058}
+>>>>>>> 2e17f755a01133c2f9b79151a062d23de7737a41
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4865abc8c4c0fb46a61f10f08c6dbf6, type: 3}

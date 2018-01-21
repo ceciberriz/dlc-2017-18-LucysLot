@@ -11,7 +11,7 @@ public class Conversation{
     {
         messages = new NPCMessage[] {
             new NPCMessage("Hiooooooooooooooooooooooo!",
-                  new PlayerMessage[] {new PlayerMessage("ayy", null), new PlayerMessage("lmao", null)}),
+                  new PlayerMessage[] {new PlayerMessage("ayy", new NPCMessage[] {new NPCMessage("you selected ayy", null)}), new PlayerMessage("lmao", null)}),
             new NPCMessage("I'm Polly!", null),
             new NPCMessage("What's your name?", null) };
     }
