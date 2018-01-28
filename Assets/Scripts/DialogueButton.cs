@@ -10,6 +10,8 @@ public class DialogueButton : MonoBehaviour {
     void Start()
     {
         textManager = gameObject.AddComponent(typeof(TextManager)) as TextManager;
+        // get rid of this
+        TruthValue.Main();
     }
 
     // Update is called once per frame
