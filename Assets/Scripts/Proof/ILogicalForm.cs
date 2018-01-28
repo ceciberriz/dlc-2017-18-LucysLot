@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public interface ILogicalForm {
-	ISemanticType getType();
+	ISemanticType GetSemanticType();
 	ISemanticValue Denotation(Model m);
 
 	bool IsFormula();

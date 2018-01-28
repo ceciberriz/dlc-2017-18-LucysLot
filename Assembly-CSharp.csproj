@@ -70,8 +70,11 @@
      <Compile Include="Assets\Scripts\PlayerMessage.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Proof\Constant.cs" />
+     <Compile Include="Assets\Scripts\Proof\E.cs" />
      <Compile Include="Assets\Scripts\Proof\ILogicalForm.cs" />
      <Compile Include="Assets\Scripts\Proof\ISemanticType.cs" />
+     <Compile Include="Assets\Scripts\Proof\T.cs" />
+     <Compile Include="Assets\Scripts\Proof\Variable.cs" />
      <Compile Include="Assets\Scripts\TextManager.cs" />
      <Compile Include="Assets\Scripts\Unit.cs" />
      <Compile Include="Assets\Scripts\XMLSerializer.cs" />
