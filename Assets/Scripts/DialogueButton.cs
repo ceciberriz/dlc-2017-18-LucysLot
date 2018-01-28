@@ -23,7 +23,11 @@ public class DialogueButton : MonoBehaviour {
     private void OnClick()
     {
         Debug.Log("mouse down!!!");
+<<<<<<< HEAD
+        //textManager.SetButtonClicked();
+=======
         textManager.SetButtonClicked();
+>>>>>>> 2e17f755a01133c2f9b79151a062d23de7737a41
     }
 }
 

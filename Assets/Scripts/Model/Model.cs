@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -206,3 +207,10 @@ public class Model { //this has only been partially changed from Java to C#
 }
 
 }
+=======
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Model : MonoBehaviour {}
+>>>>>>> 1f2648a325f8d3f905b718d58888781bfa06e9ed
