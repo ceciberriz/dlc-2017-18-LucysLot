@@ -37,7 +37,6 @@ public class TruthValue : ISemanticValue
         return value == T.False;
     }
 
-
     public void Clear()
     {
         value = T.Unknown;
@@ -113,5 +112,25 @@ public class TruthValue : ISemanticValue
     public bool Update(ISemanticValue that)
     {
         throw new NotImplementedException();
+    }
+
+    public static void Main()
+    {
+        TruthValue v = new TruthValue();
+        Debug.Log(v.toString());
+        Debug.Log(v.Add(true));
+        Debug.Log(v.toString());
+        Debug.Log(v.Add(true));
+        Debug.Log(v.toString());
+        Debug.Log(v.Add(false));
+        Debug.Log(v.toString());
+        v.Clear();
+        Debug.Log(v.toString());
+        Debug.Log(v.Add(false));
+        Debug.Log(v.toString());
+        Debug.Log(v.Add(false));
+        Debug.Log(v.toString());
+        Debug.Log(v.Add(true));
+        Debug.Log(v.toString());
     }
 }

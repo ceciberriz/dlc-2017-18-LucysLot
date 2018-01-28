@@ -39,14 +39,14 @@ public class Individual : ISemanticValue{
         return false;
     }
 
-    public ISemanticValue sClone()
+    public ISemanticValue SClone()
     {
         return new Individual(id);
     }
 }
 
 
-}
+
 
 
 
