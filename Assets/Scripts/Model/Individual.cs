@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Individual : ISemanticValue{
+public class Individual { //: ISemanticValue {
 
     private int id;
     //private Expression name;
@@ -38,15 +38,14 @@ public class Individual : ISemanticValue{
     {
         return false;
     }
-
-    public ISemanticValue sClone()
-    {
-        return new Individual(id);
-    }
+//
+//    public ISemanticValue sClone()
+//    {
+//        //return new Individual(id);
+//    }
 }
 
 
-}
 
 
 

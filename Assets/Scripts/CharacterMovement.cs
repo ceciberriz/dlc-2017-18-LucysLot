@@ -78,6 +78,3 @@ public class Unit : MonoBehaviour {
 	}
 }
 
-
-//Debug.Log("setting isMoving to false...");
-//isMoving = false;

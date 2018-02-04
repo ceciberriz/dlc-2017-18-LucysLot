@@ -70,6 +70,10 @@ public class Grid : MonoBehaviour {
 		return grid[x,y];
 	}
 
+	public Node getNodeFromXY(int gridX, int gridY) {
+		return grid[gridX, gridY];
+	}
+
 	public List<Node> getNodeNeighbors(Node node) {
 		List<Node> neighbors = new List<Node>();
 
@@ -109,5 +113,6 @@ public class Grid : MonoBehaviour {
 			}
 			Gizmos.color = Color.blue;
 		}
+		Gizmos.DrawWireCube (worldBottomLeft,  Vector3.one * (nodeDiameter - .1f));
 	}
 }

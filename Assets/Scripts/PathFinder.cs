@@ -19,6 +19,23 @@ public class PathFinder : MonoBehaviour {
 	public void StartFindPath(Vector3 startPos, Vector3 targetPos) {
 		StartCoroutine(FindPath(startPos, targetPos));
 	}
+
+	Node findNewTarget(Node oldTarget) {
+		Node newTarget = oldTarget;
+		int x = oldTarget.gridX;
+		int z = oldTarget.gridY;
+
+		while (!newTarget.walkable) {
+			x -= 1; 
+			z -= 1; 
+			if (x >= 0 && z >= 0) {
+				newTarget = grid.getNodeFromXY (x, z);
+			} else {
+				return oldTarget;
+			}
+		}
+		return newTarget;
+	}
 		
 	IEnumerator FindPath (Vector3 startPosition, Vector3 targetPosition) {
 		Vector3[] waypoints = new Vector3[0];
@@ -26,6 +43,12 @@ public class PathFinder : MonoBehaviour {
 
 		Node startNode = grid.NodeFromWorldPoint (startPosition);
 		Node targetNode = grid.NodeFromWorldPoint (targetPosition);
+
+		//if target is unwakable then update to a target
+		//that is closer to the camera
+		if (!targetNode.walkable) {
+			targetNode = findNewTarget (targetNode);
+		}
 
 		if (startNode.walkable && targetNode.walkable) {
 			List<Node> openSet = new List<Node> ();
