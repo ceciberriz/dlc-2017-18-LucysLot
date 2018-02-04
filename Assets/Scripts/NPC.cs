@@ -6,12 +6,12 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour {
 
-    private TextManager textManager;
+    //private TextManager textManager;
 
 	// Use this for initialization
 	void Start () {
 
-        textManager = gameObject.AddComponent(typeof(TextManager)) as TextManager;
+        //textManager = gameObject.AddComponent(typeof(TextManager)) as TextManager;
     }
 	
 	// Update is called once per frame
@@ -21,6 +21,6 @@ public class NPC : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        textManager.setClicked();
+        //textManager.setClicked();
     }
 }
